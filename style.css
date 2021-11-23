@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@200;300;400&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins;
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.m20 {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #703eca;
+    transition: color 0.3s;
+}
+
+a:hover, li:hover {
+    color: #703eca;
+}
+
+input[type=text] {
+    font-family: inherit;
+    padding: 5px;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    font-family: inherit;
+    background: #703eca;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background: #fff;
+    color: #703eca;
+    border: 1px solid #703eca;
+    cursor: pointer;
+}
+
+header {
+    margin-top: 2rem;
+}
+
+.logo {
+    font-size: 2.8rem;
+    color: #333;
+    font-family: "Dancing Script";
+}
+
+.subtitle {
+    color: #444;
+    letter-spacing: 1px
+}
+
+article {
+    display: flex;
+}
+
+main {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+}
+
+#card {
+    border: 1px solid #aaa;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#card h2 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.card-header {
+    background-color: #ddd;
+    font-size: 1.1rem;
+    min-height: 30px;
+}
+
+.card-body {
+    background: #fff;
+    overflow-y: auto;
+    height: 600px;
+    max-height: 700px;
+}
+
+.card-body img {
+    max-width: 100%
+}
+
+.widget {
+    background: #fff;
+    border: 1px solid #aaa;
+    margin-bottom: 20px;
+}
+
+.widget .widget-body ul {
+    list-style: none;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.widget .widget-body ul li {
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.widget.books-list .widget-body ul li:before {
+    content: "- ";
+}
+
+footer {
+    background: #703eca;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+footer a {
+    background-color: #fff;
+    padding: 0 5px;
+}
+
+footer a:hover {
+    color: #fff;
+    background: #703eca;
+}
+
+@media screen and (max-width: 768px) {
+    article {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

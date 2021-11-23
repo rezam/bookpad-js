@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bookpad</title>
+</head>
+<body>
+    <header class="m20 p20">
+        <nav>
+            <a class="logo" href="#">BookPad App</a>
+            <div class="subtitle">A Book App by JavaScript</div>
+        </nav>
+    </header>
+    <article class="p20">
+        <main class="m20" id="card">
+            <div class="card-header p10" id="card-header"></div>
+            <div id="card-body" class="card-body p10"></div>
+        </main>
+        <aside class="m20">
+            <div class="widget books-list">
+                <div class="card-header p10">
+                    Select a book
+                </div>
+                <div class="widget-body p10">
+                    <ul id="book-list-items"></ul>
+                </div>
+            </div>
+            <div class="widget most-used">
+                <div class="card-header p10">
+                    Most Used Words
+                </div>
+                <div class="widget-body p10">
+                    <ul id="most-used-list"></ul>
+                </div>
+            </div>
+            <div class="widget document-stats">
+                <div class="card-header p10">
+                    Book Stats
+                </div>
+                <div class="widget-body p10">
+                    <ul id="document-stats-list">
+                        <li id="wordCount"></li>
+                        <li id="charCount"></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </article>
+    <footer>
+        <p>Designed by <a href="https://github.com/rezam">me</a>.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
